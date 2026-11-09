@@ -3,6 +3,7 @@
 
 int main(void)
 {
+    setlocale(LC_ALL,"");
     int n, i, primo = 1;
     printf("Digite um numero: ");
     scanf_s("%d", &n);
